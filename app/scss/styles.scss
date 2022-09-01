@@ -3,7 +3,6 @@
 // Base imports
 @import "00_base/media-queries_mixins";
 @import "00_base/root";
-@import "00_base/typography";
 @import "00_base/variables";
 @import "00_base/colors";
 @import "00_base/slider";
@@ -13,7 +12,6 @@
 @import "01_atom/a-buttons";
 
 // molecule imports
-@import "02_molecule/m-card";
+@import "02_molecule/testimonials";
 
 // organism imports
-@import "03_organism/o-card-list";

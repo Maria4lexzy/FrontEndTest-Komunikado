@@ -1,8 +1,9 @@
-.slider-btn-wrapper {
+.slider__btn-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
+
 	.slider__btn-next,
 	.slider__btn-prev {
 		i {
