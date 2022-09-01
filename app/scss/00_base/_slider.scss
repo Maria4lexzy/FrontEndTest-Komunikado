@@ -1,0 +1,26 @@
+.slider-btn-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	.slider__btn-next,
+	.slider__btn-prev {
+		i {
+			font-size: 32px;
+			color: $gray;
+			transition: color 0.4s linear;
+			cursor: pointer;
+			&:hover {
+				color: $primary;
+			}
+		}
+
+		&::after {
+			font-size: 2rem;
+			color: $white;
+		}
+	}
+	.slider__button-prev {
+		right: 30rem;
+	}
+}
