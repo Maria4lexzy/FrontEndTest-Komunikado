@@ -1,2 +1,2 @@
-
+$(document).ready((function(){$(".slider__btn-prev").click((function(){$(".slider").slick("slickNext")})),$(".slider__btn-next").click((function(){$(".slider").slick("slickPrev")})),$(".slider").slick({slidesToShow:4,centerMode:!0,arrows:!1,draggable:!0,centerPadding:"8px",responsive:[{breakpoint:1200,settings:{slidesToShow:3}},{breakpoint:900,settings:{slidesToShow:3,slidesToScroll:3}},{breakpoint:800,settings:{slidesToShow:1,slidesToScroll:1}}]})}));
 //# sourceMappingURL=script.js.map

@@ -31,6 +31,16 @@
 			display: none;
 		}
 	}
+	&__header {
+		text-transform: uppercase;
+		padding: 8px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		margin-left: 178px;
+		margin-bottom: 80px;
+	}
 
 	.slider {
 		text-align: left;
